@@ -27,7 +27,7 @@ content.appendChild(div2);
 const h1 = document.createElement('h1');
 h1.textContent = "I'm a div";
 
-div2.appendChild(h1);
+div2.appendChild(h1); // append child h1 to div2 //
 
 const p = document.createElement('p');
 p.textContent = 'Me too';
