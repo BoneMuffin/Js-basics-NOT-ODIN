@@ -4,7 +4,7 @@ const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
-container.appendChild(content);
+container.appendChild(content); // takes CONTENT and appends it (as a child) to CONTAINER //
 
 const paragraph = document.createElement('p');
     paragraph.style.color = 'red';
